@@ -8,8 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		AE38CAAA24C05BC5002964D7 /* TreeStructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE38CAA024C05BC5002964D7 /* TreeStructure.framework */; };
-		AE38CAAF24C05BC5002964D7 /* TreeStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CAAE24C05BC5002964D7 /* TreeStructureTests.swift */; };
 		AE38CAB124C05BC5002964D7 /* TreeStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = AE38CAA324C05BC5002964D7 /* TreeStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE38CAC024C59608002964D7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CABF24C59608002964D7 /* Node.swift */; };
+		AE38CAC224C5962A002964D7 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CAC124C5962A002964D7 /* BinaryTree.swift */; };
+		AE38CAC324C5963D002964D7 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CAC124C5962A002964D7 /* BinaryTree.swift */; };
+		AE38CAC424C59640002964D7 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CABF24C59608002964D7 /* Node.swift */; };
+		AE38CACC24C858AD002964D7 /* BinaryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CACB24C858AD002964D7 /* BinaryTreeTests.swift */; };
+		AE38CACE24C858F6002964D7 /* BinaryTreePerformanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CACD24C858F6002964D7 /* BinaryTreePerformanceTests.swift */; };
+		AE38CAD024C86A34002964D7 /* AVLBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CACF24C86A34002964D7 /* AVLBinaryTree.swift */; };
+		AE38CAD224C86AB3002964D7 /* AVLBinaryTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CAD124C86AB3002964D7 /* AVLBinaryTreeTests.swift */; };
+		AE38CAD324C86BD4002964D7 /* AVLBinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38CACF24C86A34002964D7 /* AVLBinaryTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,8 +35,13 @@
 		AE38CAA324C05BC5002964D7 /* TreeStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeStructure.h; sourceTree = "<group>"; };
 		AE38CAA424C05BC5002964D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE38CAA924C05BC5002964D7 /* TreeStructureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreeStructureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE38CAAE24C05BC5002964D7 /* TreeStructureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeStructureTests.swift; sourceTree = "<group>"; };
 		AE38CAB024C05BC5002964D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE38CABF24C59608002964D7 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		AE38CAC124C5962A002964D7 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		AE38CACB24C858AD002964D7 /* BinaryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreeTests.swift; sourceTree = "<group>"; };
+		AE38CACD24C858F6002964D7 /* BinaryTreePerformanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreePerformanceTests.swift; sourceTree = "<group>"; };
+		AE38CACF24C86A34002964D7 /* AVLBinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLBinaryTree.swift; sourceTree = "<group>"; };
+		AE38CAD124C86AB3002964D7 /* AVLBinaryTreeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLBinaryTreeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +86,9 @@
 			children = (
 				AE38CAA324C05BC5002964D7 /* TreeStructure.h */,
 				AE38CAA424C05BC5002964D7 /* Info.plist */,
+				AE38CABF24C59608002964D7 /* Node.swift */,
+				AE38CAC124C5962A002964D7 /* BinaryTree.swift */,
+				AE38CACF24C86A34002964D7 /* AVLBinaryTree.swift */,
 			);
 			path = TreeStructure;
 			sourceTree = "<group>";
@@ -80,7 +96,9 @@
 		AE38CAAD24C05BC5002964D7 /* TreeStructureTests */ = {
 			isa = PBXGroup;
 			children = (
-				AE38CAAE24C05BC5002964D7 /* TreeStructureTests.swift */,
+				AE38CACB24C858AD002964D7 /* BinaryTreeTests.swift */,
+				AE38CAD124C86AB3002964D7 /* AVLBinaryTreeTests.swift */,
+				AE38CACD24C858F6002964D7 /* BinaryTreePerformanceTests.swift */,
 				AE38CAB024C05BC5002964D7 /* Info.plist */,
 			);
 			path = TreeStructureTests;
@@ -148,6 +166,7 @@
 				TargetAttributes = {
 					AE38CA9F24C05BC5002964D7 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					AE38CAA824C05BC5002964D7 = {
 						CreatedOnToolsVersion = 11.3;
@@ -195,6 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE38CAC224C5962A002964D7 /* BinaryTree.swift in Sources */,
+				AE38CAD024C86A34002964D7 /* AVLBinaryTree.swift in Sources */,
+				AE38CAC024C59608002964D7 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE38CAAF24C05BC5002964D7 /* TreeStructureTests.swift in Sources */,
+				AE38CAD324C86BD4002964D7 /* AVLBinaryTree.swift in Sources */,
+				AE38CAD224C86AB3002964D7 /* AVLBinaryTreeTests.swift in Sources */,
+				AE38CACE24C858F6002964D7 /* BinaryTreePerformanceTests.swift in Sources */,
+				AE38CACC24C858AD002964D7 /* BinaryTreeTests.swift in Sources */,
+				AE38CAC424C59640002964D7 /* Node.swift in Sources */,
+				AE38CAC324C5963D002964D7 /* BinaryTree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +367,7 @@
 		AE38CAB524C05BC5002964D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
@@ -356,6 +384,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.gulya.boiko.TreeStructure;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -364,6 +393,7 @@
 		AE38CAB624C05BC5002964D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UBR9UU276M;
@@ -388,6 +418,7 @@
 		AE38CAB824C05BC5002964D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBR9UU276M;
 				INFOPLIST_FILE = TreeStructureTests/Info.plist;
@@ -406,6 +437,7 @@
 		AE38CAB924C05BC5002964D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UBR9UU276M;
 				INFOPLIST_FILE = TreeStructureTests/Info.plist;
